@@ -2,7 +2,7 @@
 Dead simple, barebones Blender (2.83) addon for placing meshes as tiles.
 
 ## Installation
-In Blender, go to 
+In Blender, go to Edit > Preferences > Add-ons > Install..., then find the `__init__.py` file of this addon and install it.
 
 ## Usage
 Adds an 'EasyTile' menu to the sidebar in object mode.
