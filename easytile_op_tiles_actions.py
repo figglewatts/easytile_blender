@@ -42,8 +42,10 @@ class EASYTILE_OT_tiles_actions(bpy.types.Operator):
             if not isinstance(context.active_object.data, bpy.types.Mesh):
                 return {"CANCELLED"}
 
-            item = scn.easytile.tiles.add()
-            item.ref = context.active_object
+            for obj in context.selected_objects:
+                item = scn.easytile.tiles.add()
+                item.ref = obj
+            
             scn.easytile.tile_index = (len(scn.easytile.tiles)-1)
 
         return {"FINISHED"}

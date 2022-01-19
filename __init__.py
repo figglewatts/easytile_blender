@@ -15,7 +15,7 @@ from .easytile_op_editor import EASYTILE_OT_editor_operator
 from .easytile_panel_editor import EASYTILE_PT_editor_panel, EASYTILE_UL_tiles
 from .easytile_properties import EASYTILE_TileRef, EASYTILE_Properties
 from .easytile_op_tiles_actions import EASYTILE_OT_tiles_actions
-from .easytile_op_properties import EASYTILE_OT_easytile_properties_actions
+from .easytile_op_properties_actions import EASYTILE_OT_easytile_properties_actions
 
 classes = (
     EASYTILE_TileRef,
